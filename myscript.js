@@ -7,7 +7,10 @@ $(document).ready(function() {
 		$("p").hide();
 		$("img").addClass("border");
 	});
-	$("h1").click(function(){
-		$("h2, h3").toggleClass(hide());
+	$("p").hover(function(){
+		$(this).css("background-color", "yellow");
+	}, function(){
+		$(this).css("background-color", "lightblue");
 	});
+
 });

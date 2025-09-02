@@ -20,3 +20,8 @@ img{
 .border{
 	border: 25px solid black;
 }
+
+.normal{
+	color: black;
+	background-color: lightblue;
+}
